@@ -11,10 +11,10 @@ webPush.setVapidDetails(
    vapidKeys.privateKey
 )
 var pushSubscription = {
-   "endpoint": "https://fcm.googleapis.com/fcm/send/cio3t9xVbFE:APA91bF0wQcUz_k4GdtC9k1yLKhKqa3AdiE4dUG-2yyry_d1IN2Wo7WzLsRbBNQaFn0l255WWtwy1BBaH2WIvYtDFikSXS9r41VFhhE6afwdqxqq0tgsEVXahUV4WOXfTxcRJTPfHDwU",
+   "endpoint": "https://fcm.googleapis.com/fcm/send/dC1YR49rCFE:APA91bHBnrZkICQfbSIPuIlbxPvsAcNefTaaEHGAwTE0FURjkdFAom3m2zl1uq8Srj4Z0mOpTYbkzQ6G7V00eoJblc6jAKp4nA60wM0-W4-Knx-6aaRZFQqankglKP5LU_7s_Qjbj8R7",
    "keys": {
-       "p256dh": "BFDeZFc0RrLjsBsqSlSYqjhJGA/ypv5rS1iT9XS/vfH7UUwZVjdPav43y2mv3Jop198MyDvAy/YH0sO5bBJWeoA=",
-       "auth": "MtT6SDfSimYRpgpc3INqPQ=="
+       "p256dh": "BBTTrbhuyO4rb44A337rjVuJA9iULHPthUuLrCcee1irSdV2thb1KPAc7QJGvGPfV+4JQmNiqi5MlBJjdBhItM0=",
+       "auth": "/vcnvGY6IEdig5fg75jyHA=="
    }
 };
 var payload = 'Selamat! Aplikasi LigaQu sudah dapat menerima push notifikasi!';
