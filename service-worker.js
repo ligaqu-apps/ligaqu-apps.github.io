@@ -34,7 +34,8 @@ workbox.precaching.precacheAndRoute([
     { url: '/icons/icon-512x512.png', revision: '1' },
     { url: '/icons/icon-72x72.png', revision: '1' },
     { url: '/icons/icon-96x96.png', revision: '1' },
-    { url: '/icons/ligaqu.ico', revision: '1' },
+    { url: '/icons/icon-32x32.png', revision: '1' },
+    { url: '/icons/icon-16x16.png', revision: '1' }
 ]);
 
 workbox.routing.registerRoute(
