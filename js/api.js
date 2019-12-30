@@ -383,11 +383,12 @@ function  getSavedInfoLigaPremierInggrisByID(){
 function showKlasemen(data) {
     let standings = "";
     let klasemenElement =  document.getElementById("klasemen");
-
+    let i = 1;
     data.standings[0].table.forEach(function (standing) {
     // console.log(data);
     standings += `
             <tr>
+                <td>${i++}</td>
                 <td><img src="${standing.team.crestUrl.replace(/^http:\/\//i, 'https://')}" width="30px" alt="badge"/></td>
                 <td>${standing.team.name}</td>
                 <td>${standing.playedGames}</td>
@@ -408,6 +409,7 @@ function showKlasemen(data) {
             <table class="striped responsive-table">
                 <thead>
                     <tr>
+                        <th>No</th>
                         <th></th>
                         <th>Klub</th>
                         <th>M</th>
