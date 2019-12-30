@@ -88,8 +88,8 @@
         btnDelete.onclick = function() {
           M.toast({html: 'Team Berhasil Dihapus!', classes: 'rounded'})
           hapusTeam(id);
-          del.style.display = "none";
-          save.style.display = "block";
+          btnDelete.style.display = "none";
+          btnSave.style.display = "block";
           //kembali ke halaman Team Favorit
           window.location.href = "./#tersimpan";
         };
