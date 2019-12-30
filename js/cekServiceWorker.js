@@ -30,9 +30,9 @@ function requestPermission() {
     } else if (result === "default") {
       console.error("Pengguna menutup kotak dialog permintaan ijin.");
       return;
+    } else {
+      console.log("Fitur notifikasi diijinkan.");
     }
-
-    console.log("Fitur notifikasi diijinkan.");
   });
 }
 
