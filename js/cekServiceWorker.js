@@ -4,6 +4,7 @@ if ("serviceWorker" in navigator) {
             .register("/service-worker.js")
             .then(function () {
               console.log("Pendaftaran ServiceWorker berhasil");
+              requestPermission();
             })
             .catch(function () {
                 console.log("Pendaftaran ServiceWorker gagal");
