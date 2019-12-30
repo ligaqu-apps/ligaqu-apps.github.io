@@ -91,7 +91,11 @@
           btnDelete.style.display = "none";
           btnSave.style.display = "block";
           //kembali ke halaman Team Favorit
-          window.location.href = "./#tersimpan";
+          if (isFromSaved) {
+            window.location.href = "./#tersimpan";
+          } else {
+            console.log("Tidak pindah halaman");
+          }
         };
       });
     </script>
