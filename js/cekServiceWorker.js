@@ -51,6 +51,8 @@ navigator.serviceWorker.getRegistration().then(function(registration) {
       console.error('Tidak dapat melakukan subscribe ', e.message);
   });
 });
+} else {
+  console.log("Push Manager Belum berjalan");
 }
 
 function urlBase64ToUint8Array(base64String) {
