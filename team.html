@@ -77,14 +77,19 @@
 
         btnSave.onclick = function() {
           M.toast({html: 'Team Berhasil Disimpan!', classes: 'rounded'});
-          item.then(function(data) {
-            simpanTeam(data);
+          console.log("Tombol save di klik.");
+          item.then(function (team) {
+              simpanTeam(data);
           });
+          btnSave.style.display = "none";
+          btnDelete.style.display = "block";
         };
 
         btnDelete.onclick = function() {
           M.toast({html: 'Team Berhasil Dihapus!', classes: 'rounded'})
           hapusTeam(id);
+          del.style.display = "none";
+          save.style.display = "block";
           //kembali ke halaman Team Favorit
           window.location.href = "./#tersimpan";
         };
