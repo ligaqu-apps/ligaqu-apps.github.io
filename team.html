@@ -79,7 +79,7 @@
           M.toast({html: 'Team Berhasil Disimpan!', classes: 'rounded'});
           console.log("Tombol save di klik.");
           item.then(function (team) {
-              simpanTeam(data);
+              simpanTeam(team);
           });
           btnSave.style.display = "none";
           btnDelete.style.display = "block";
